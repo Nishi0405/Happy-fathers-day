@@ -3,13 +3,15 @@
 ========================= */
 
 window.addEventListener("load", () => {
-    const loader = document.getElementById("loader");
 
-    if(loader){
-        setTimeout(() => {
-            loader.style.display = "none";
-        }, 2500);
-    }
+    setTimeout(() => {
+
+        document.getElementById("loader").style.display = "none";
+
+        document.getElementById("main-content").style.display = "block";
+
+    },2500);
+
 });
 
 /* =========================
