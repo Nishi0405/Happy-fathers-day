@@ -138,25 +138,25 @@ function startSlideshow(){
 
     if(!slide) return;
 
-    const images = [
-        "m13.jpeg",
-        "m17.jpeg",
-        "m6.jpeg",
-        "m3.jpeg",
-        "m8.jpeg",
-        "m5.jpeg",
-        "m7.jpeg",
-        "m9.jpeg",
-        "m1.jpeg",
-        "m15.jpeg",
-        "m10.jpeg",
-        "m11.jpeg",
-        "m16.jpeg"
-		"m2.jpeg"
-		"m4.jpeg"
-		"m12.jpeg"
-		"m14.jpeg"
-    ];
+const images = [
+    "m1.jpeg",
+    "m2.jpeg",
+    "m3.jpeg",
+    "m4.jpeg",
+    "m5.jpeg",
+    "m6.jpeg",
+    "m7.jpeg",
+    "m8.jpeg",
+    "m9.jpeg",
+    "m10.jpeg",
+    "m11.jpeg",
+    "m12.jpeg",
+    "m13.jpeg",
+    "m14.jpeg",
+    "m15.jpeg",
+    "m16.jpeg",
+    "m17.jpeg"
+];
 
     let current = 0;
 
