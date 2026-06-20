@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Home</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onclick="playMusic()">
+
+<audio id="bgMusic" loop>
+    <source src="music/fathersday.mp3">
+</audio>
+
+<div class="container">
+
+<h1 class="hero-title">
+Welcome Papa ❤️
+</h1>
+
+<p>
+A special website made with love by your daughter,
+Nishtha Berawala.
+</p>
+
+<div class="navbar">
+
+<a href="hero.html" class="btn">
+Hero Page
+</a>
+
+<a href="letter1.html" class="btn">
+Letter To Papa
+</a>
+
+<a href="memories.html" class="btn">
+Memories
+</a>
+
+<a href="gratitude.html" class="btn">
+Thank You
+</a>
+
+<a href="letter2.html" class="btn">
+Special Letter
+</a>
+
+<a href="familytree.html" class="btn">
+Family Tree
+</a>
+
+<a href="award.html" class="btn">
+Best Father Award
+</a>
+
+<a href="timeline.html" class="btn">
+Timeline
+</a>
+
+<a href="#" class="btn exit-btn exit-full" onclick="exitWebsite()">
+    Exit Website
+</a>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+<script>
+function exitWebsite(){
+
+    if(confirm("Are you sure you want to leave the Father's Day Website? ❤️")){
+
+        window.close();
+
+        window.location.href = "https://www.google.com";
+
+    }
+
+}
+</script>
+</body>
+</html>
