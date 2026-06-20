@@ -129,7 +129,6 @@ window.addEventListener("load",startTypewriter);
 /* =========================
    MEMORIES SLIDESHOW
 ========================= */
-
 function startSlideshow(){
 
     const slide =
@@ -138,18 +137,19 @@ function startSlideshow(){
     if(!slide) return;
 
     const images = [
-        "m1.jpg",
-        "m2.jpg",
-        "m3.jpg",
-        "m4.jpg",
-        "m5.jpg",
+        "m13.jpg",
+        "m17.jpg",
         "m6.jpg",
-        "m7.jpg",
+        "m3.jpg",
         "m8.jpg",
+        "m5.jpg",
+        "m7.jpg",
         "m9.jpg",
+        "m1.jpg",
+        "m15.jpg",
         "m10.jpg",
         "m11.jpg",
-        "m12.jpg"
+        "m16.jpg"
     ];
 
     let current = 0;
