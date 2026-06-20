@@ -137,19 +137,23 @@ function startSlideshow(){
     if(!slide) return;
 
     const images = [
-        "m13.jpg",
-        "m17.jpg",
-        "m6.jpg",
-        "m3.jpg",
-        "m8.jpg",
-        "m5.jpg",
-        "m7.jpg",
-        "m9.jpg",
-        "m1.jpg",
-        "m15.jpg",
-        "m10.jpg",
-        "m11.jpg",
-        "m16.jpg"
+        "m13.jpeg",
+        "m17.jpeg",
+        "m6.jpeg",
+        "m3.jpeg",
+        "m8.jpeg",
+        "m5.jpeg",
+        "m7.jpeg",
+        "m9.jpeg",
+        "m1.jpeg",
+        "m15.jpeg",
+        "m10.jpeg",
+        "m11.jpeg",
+        "m16.jpeg"
+		"m2.jpeg"
+		"m4.jpeg"
+		"m12.jpeg"
+		"m14.jpeg"
     ];
 
     let current = 0;
