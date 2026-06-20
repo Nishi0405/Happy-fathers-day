@@ -320,5 +320,5 @@ box-shadow:
     justify-self:center;
 }
 #main-content{
-    display:none;
+    display:block;
 }
